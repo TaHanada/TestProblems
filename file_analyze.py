@@ -4,16 +4,17 @@ Created on Sat Jul  4 20:20:51 2020
 
 @author: taiki
 """
-
+import os
 import numpy as np
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
+# import matplotlib.pyplot as plt
+# from mpl_toolkits.mplot3d import Axes3D
 
+os.chdir("C:\\Users\\taiki\\Documents\\GitHub\\TestProblems\\DTLZ")
 gridSize = 6
 # data_infeasible = np.genfromtxt("solution_infeasible.csv", delimiter=",")
-data_nondominated = np.genfromtxt("solution_nondominated.csv", delimiter=",")
-data_dominated = np.genfromtxt("solution_dominated.csv", delimiter=",")
-
+data_nondominated = np.genfromtxt("solution_feasible.csv", delimiter=",")
+data_dominated = np.genfromtxt("solution_infeasible.csv", delimiter=",")
+'''
 X = list(data_nondominated[:, 7])
 Y = list(data_nondominated[:, 8])
 Z = list(data_nondominated[:, 9])
@@ -25,7 +26,7 @@ ax.set_xlabel("f1")
 ax.set_ylabel("f2")
 ax.set_zlabel("f3")
 plt.show()
-
+'''
 analy_x1 = np.array([])
 for x1_ind in range(gridSize + 1):
     # count = 0

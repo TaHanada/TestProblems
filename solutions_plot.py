@@ -9,8 +9,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-data_feasible = np.genfromtxt("solution_feasible.csv", delimiter=",")
-data_infeasible = np.genfromtxt("solution_infeasible.csv", delimiter=",")
+data_feasible = np.genfromtxt('ドキュメント/GitHub/TestProblems/DTLZ/solution_feasible.csv', delimiter=",")
+data_infeasible = np.genfromtxt('ドキュメント/GitHub/TestProblems/DTLZ/solution_infeasible.csv', delimiter=",")
 
 X = list(data_feasible[:, 7])
 Y = list(data_feasible[:, 8])
