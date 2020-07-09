@@ -4,6 +4,7 @@ Created on Sat Jul  4 20:20:51 2020
 
 @author: taiki
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
