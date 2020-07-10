@@ -27,7 +27,7 @@ def is_feasible(x1, x2, x3, x4):
         ans = True
     return ans
 
-gridSize = 20
+gridSize = 10
 
 arr = []
 

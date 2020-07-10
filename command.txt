@@ -1,0 +1,20 @@
+コマンド(でVScode上でプログラムを動かす)
+cmdで python[ファイル名].py
+で実行
+cd .. で上の階層に移動
+
+GitHubの使い方
+サイトがメインでデータを保存
+Repository適当に作る
+デスクトップ版でクローン作って適当に編集
+
+・個人でやるとき
+編集したらcommitでmaster branchにpushする
+そのまま変更が適用される
+
+・チームでやるとき(慣れていかんとなんとも)
+編集したやつをpushするときはbranchを分ける
+それがpull requestになってサイトの方からbranchをmergeするか決める
+issue→問題点
+review→変更提案を見る
+conflict→複数のpull requestが衝突？
