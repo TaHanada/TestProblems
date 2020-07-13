@@ -4,6 +4,8 @@ cmdで python[ファイル名].py
 cd .. で上の階層に移動
 
 GitHubの使い方
+参考：https://qiita.com/gakisan8273/items/d2d52a12ad553a82b94b
+
 サイトがメインでデータを保存
 Repository適当に作る
 デスクトップ版でクローン作って適当に編集
