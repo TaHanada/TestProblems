@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b70b6c52-055e-48eb-9ded-16b19751a7d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/RWLP/discbrake.py" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/discbrake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_dominated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_dominated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_feasible.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_feasible.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_infeasible.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_infeasible.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_nondominated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_nondominated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_x1max.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_x1max.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_x1min.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_x1min.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_x2max.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_x2max.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_x2min.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_x2min.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_x3max.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_x3max.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_x3min.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_x3min.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/solution_x4min.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/solution_x4min.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/x1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/x1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/x2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/x2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/x3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/x3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWLP/x4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RWLP/x4.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fSQLeIFpLUDMcFM9bN9lBDruPx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b70b6c52-055e-48eb-9ded-16b19751a7d2" name="Default Changelist" comment="" />
+      <created>1596208960221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596208960221</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596216315047">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1596216315047" />
+  </component>
+</project>

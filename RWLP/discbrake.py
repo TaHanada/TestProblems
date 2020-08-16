@@ -6,12 +6,15 @@ Created on Thu Apr 16 03:16:49 2020
 """
 
 import numpy as np
+
+
 # import matplotlib.pyplot as plt
 # from mpl_toolkits.mplot3d import Axes3D​
 
 def cal_f1(x1, x2, x3, x4):
     ans = 4.9 * 10 ** (-5) * (x2 ** 2 - x1 ** 2) * (x4 - 1)
     return ans
+
 
 def cal_f2(x1, x2, x3, x4):
     if x1 == x2:
@@ -20,12 +23,14 @@ def cal_f2(x1, x2, x3, x4):
         ans = (9.82 * 10 ** 6 * (x2 ** 2 - x1 ** 2)) / (x3 * x4 * (x2 ** 3 - x1 ** 3))
     return ans
 
+
 def is_feasible(x1, x2, x3, x4):
     ans = False
     if (55 <= x1 <= 80) and (20 <= x2 - x1 and x2 <= 110) and (1000 <= x3 <= 3000) and (
             2 <= x4 <= 11):
         ans = True
     return ans
+
 
 gridSize = 10
 
@@ -41,14 +46,14 @@ for x1_ind in range(gridSize + 1):
                 x3 = (3000 - 1000) * x3_ind / (gridSize) + 1000
                 # x4 = (20 - 2) * x4_ind / (gridSize) + 2
                 x4 = x4_ind
-                
+
                 sol = is_feasible(x1, x2, x3, x4)
                 f1 = cal_f1(x1, x2, x3, x4)
                 f2 = cal_f2(x1, x2, x3, x4)
 
-                #print(f'{x1}, {x2}, {x3}, {x4}, {f1}, {f2}, {sol}')
+                # print(f'{x1}, {x2}, {x3}, {x4}, {f1}, {f2}, {sol}')
                 arr.append([x1, x2, x3, x4, f1, f2, sol])
-                
+
 file_feasible = open('solution_feasible.csv', 'w')
 file_infeasible = open('solution_infeasible.csv', 'w')
 file_x1min = open('solution_x1min.csv', 'w')
@@ -83,7 +88,7 @@ for l in range(len(arr)):
             file_x4max.write(strTemp)
     else:
         file_infeasible.write(strTemp)
-        
+
 file_feasible.close()
 file_infeasible.close()
 file_x1min.close()
